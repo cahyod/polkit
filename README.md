@@ -9,4 +9,5 @@ Untuk mengecek dan mencegah eksploitasi CVE-2021-4043 dengan Python, kita bisa m
 1. Cek Versi Polkit: Skrip ini memeriksa apakah versi Polkit yang diinstal adalah yang rentan (0.105). Jika ya, Anda harus segera memperbaruinya.
 2. Cek File Mencurigakan: Malware Perfctl sering menggunakan direktori /tmp untuk menjalankan proses berbahaya. Skrip ini memeriksa apakah ada file mencurigakan yang mungkin merupakan indikasi infeksi.
 3. Menonaktifkan Polkit: Jika Polkit tidak diperlukan, Anda dapat memilih untuk menonaktifkannya.
-## Catatan Penting: Setelah menjalankan skrip ini, pastikan sistem Anda diperbarui dan lakukan pemeriksaan berkala pada integritas file dan proses yang berjalan.
+
+Catatan Penting: Setelah menjalankan skrip ini, pastikan sistem Anda diperbarui dan lakukan pemeriksaan berkala pada integritas file dan proses yang berjalan.
